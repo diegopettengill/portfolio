@@ -8,6 +8,7 @@ html {
 
 body {
     height: 100%;
+    color: #414141;
 }
 
 /* COMPONENTS AND GENERAL STYLING*/
@@ -25,6 +26,13 @@ h1 {
     padding: 10px 20px;
     margin: 20px 0 0 0;
     font-weight: 600;
+    transition: background-color 0.5s;
+}
+
+.btn-outline:hover {
+    border: 1px solid #484848;
+    background: #484848;
+    color: #fff;
 }
 
 /*COLOR THEME PALETTE*/
@@ -40,7 +48,7 @@ h1 {
 /*HEADER*/
 header {
     background: #f5f5f5;
-    height: 100%;
+    /*height: 100%;*/
 }
 
 /*MAIN MENU*/
@@ -59,6 +67,22 @@ header {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
+    transition: color 0.5s;
+}
+
+.main-menu li a:hover {
+    color: #ffd504;
+}
+
+#sidemenu-toggle {
+    margin: 50px 0 0 20px;
+    color: #777;
+    text-decoration: none;
+}
+
+#sidemenu-toggle:hover {
+    text-decoration: none;
+    color: #ffd504;
 }
 
 .logo {
@@ -188,6 +212,10 @@ header {
     text-decoration: none;
 }
 
+.portolio-categories ul li a:hover {
+    color: #ffd504;
+}
+
 .portfolio-item {
     padding-bottom: 20px;
 }
@@ -201,25 +229,85 @@ header {
     color: #919191;
 }
 
-.portfolio-link{
+.portfolio-link {
     float: right;
-    margin:10px 15px 0 0;
+    margin: 15px 15px 0 0;
+    color: #494949;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.portfolio-link:hover {
+    color: #ffd504;
 }
 
 .portfolio-item-inner {
     margin: 0 0 20px 0;
-    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 1s;
+}
+
+.portfolio-item-inner:hover {
+    -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
+}
+
+#contact {
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.menu-social {
+    list-style-type: none;
+}
+
+.menu-social li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.menu-social li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #494949;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    color: #494949;
+    line-height: 30px;
+    text-align: center;
+    transition: background 0.5s;
+}
+
+.menu-social li a:hover {
+    background: #494949;
+    color: #fff;
 }
 
 /*FOOTER*/
-footer {
-    padding: 0 0 20px 0;
+#footer {
+    padding: 20px 0;
 }
 
-footer hr {
-    margin-bottom: 20px;
+/*SIDE MENU*/
+.sidr-inner {
+    list-style-type: none;
+}
+
+.sidr-inner li {
+    border-bottom: 1px solid #494949;
+}
+
+.sidr-inner li a {
+    padding: 10px;
+    display: block;
+    color: #f2f2f2;
+    text-transform: uppercase;
 }
 
 /*BOOTSTRAP OVERRIDE*/
@@ -238,23 +326,58 @@ footer hr {
 }
 
 /*RESPONSIVENESS*/
+
 @media screen and (max-width: 767px) {
-    .logo-wrapper {
+
+    #sidemenu-toggle {
+        font-size: 20px;
+    }
+
+    .aboutme-description {
+        margin-bottom: 20px;
+    }
+
+    .slider-description {
+        position: relative;
+        margin: 50px 0 0 0;
+        width: 100%;
         text-align: center;
     }
 
-    .author-wrapper {
+    .resume-item h5 {
+        text-align: left;
+    }
+
+    .resume-item h6 {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .resume-item-content:before {
+        left: 0px;
+        top: -42px;
+        height: calc(100% + 116px);
+    }
+
+    .resume-item h2:before {
+        left: -7px;
+        top: -57px;
+    }
+
+    #footer{
         text-align: center;
     }
+
+    .loveline{
+        text-align: center;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     /*.logo-wrapper {*/
     /*text-align: center;*/
     /*}*/
-    .author-wrapper {
-        text-align: center;
-    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
