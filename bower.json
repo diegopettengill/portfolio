@@ -1,0 +1,21 @@
+{
+  "name": "Diego Pettengill Fernandes Portfolio",
+  "homepage": "https://github.com/diegopettengill/portfolio",
+  "authors": [
+    "diegopettengill@gmail.com"
+  ],
+  "description": "Personal Portfolio",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "izimodal": "^1.5.1"
+  }
+}

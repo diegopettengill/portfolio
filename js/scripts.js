@@ -30,6 +30,46 @@ $(document).ready(function () {
         $grid.isotope({filter: filterValue});
     });
 
+    $(document).on('click', '.trigger-modal', function (event) {
+        event.preventDefault();
+
+        var target = $(this).attr('data-target');
+
+        $(target).iziModal('open', this); // Do not forget the "this"
+    });
+
+    //modals
+    $('.izimodal').iziModal({
+        history: false,
+        title: "",
+        // subtitle: "Simple, complete and lightweight modal plugin with jquery.",
+        icon: 'icon-chat',
+        // overlayColor: 'rgba(255, 255, 255, 0.4)',
+        // headerColor: '#334c7b',
+        iconColor: 'white',
+        // fullscreen: true,
+        width: 700,
+        padding: 20,
+        // rtl: true,
+        bodyOverflow: false,
+        // closeButton: false,
+        // top: 50,
+        // bottom: 50,
+        onClosed: function(modal){
+            // console.info(modal)
+            //modal.destroy();
+        },
+        onOpening: function(modal){
+            modal.startLoading();
+        },
+        onOpened: function(modal){
+            modal.stopLoading();
+            // setTimeout(function(){
+            //     $("#modal-large .iziModal-wrap").scrollTop(0);
+            // },1)
+        }
+    });
+
 });
 
 
