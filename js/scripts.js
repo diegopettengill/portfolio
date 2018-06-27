@@ -30,21 +30,22 @@ $(document).ready(function () {
         $grid.isotope({filter: filterValue});
     });
 
-    $(document).on('click', '.trigger-modal', function (event) {
-        event.preventDefault();
-
-        var target = $(this).attr('data-target');
-
-        $(target).iziModal('open', this); // Do not forget the "this"
-    });
+    // $(document).on('click', '.trigger-modal', function (event) {
+    //     event.preventDefault();
+    //
+    //     var target = $(this).attr('data-target');
+    //
+    //     $(target).iziModal('open', this); // Do not forget the "this"
+    // });
 
     //modals
     $('.izimodal').iziModal({
         history: false,
         title: "",
+        theme: 'light',
         // subtitle: "Simple, complete and lightweight modal plugin with jquery.",
         icon: 'icon-chat',
-        // overlayColor: 'rgba(255, 255, 255, 0.4)',
+        overlayColor: 'rgba(255, 255, 255, 0.4)',
         // headerColor: '#334c7b',
         iconColor: 'white',
         // fullscreen: true,
