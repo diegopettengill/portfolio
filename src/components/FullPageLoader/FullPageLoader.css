@@ -1,0 +1,51 @@
+.full-page-loader {
+    height: 100vmax;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.95);
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+    color: #3c3c3c;
+    font-family: Consolas, Menlo, Monaco, monospace;
+    font-weight: bold;
+    font-size: 30vh;
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+
+.full-page-loader.unloaded {
+    display: none;
+}
+
+.full-page-loader span {
+    display: inline-block;
+    -webkit-animation: pulse 0.4s alternate infinite ease-in-out;
+    animation: pulse 0.4s alternate infinite ease-in-out;
+}
+
+.full-page-loader span:nth-child(odd) {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.full-page-loader .loader-text {
+    font-size: 22px;
+}
+
+@-webkit-keyframes pulse {
+    to {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+}
+
+@keyframes pulse {
+    to {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+}

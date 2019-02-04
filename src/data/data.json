@@ -1,0 +1,790 @@
+{
+  "languages": [
+    {
+      "name": "PHP"
+    },
+    {
+      "name": "Laravel 5.x"
+    },
+    {
+      "name": "Composer"
+    },
+    {
+      "name": "Wordpress"
+    },
+    {
+      "name": "HTML5"
+    },
+    {
+      "name": "CSS3"
+    },
+    {
+      "name": "NodeJS"
+    },
+    {
+      "name": "Bower"
+    },
+    {
+      "name": "MySQL"
+    },
+    {
+      "name": "PostgreSQL"
+    },
+    {
+      "name": "Javascript"
+    },
+    {
+      "name": "jQuery"
+    },
+    {
+      "name": "AngularJS"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "Ionic"
+    },
+    {
+      "name": "Less"
+    },
+    {
+      "name": "AWS"
+    },
+    {
+      "name": "Android"
+    },
+    {
+      "name": "Tableau"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "Hadoop"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML,CSS,JS Apps",
+      "proficiency": 95
+    },
+    {
+      "name": "PHP & MySQL Apps",
+      "proficiency": 90
+    },
+    {
+      "name": "WordPress Theme Development",
+      "proficiency": 90
+    },
+    {
+      "name": "Javascript",
+      "proficiency": 90
+    },
+    {
+      "name": "Android App Development",
+      "proficiency": 50
+    },
+    {
+      "name": "Python (Flask, Pandas)",
+      "proficiency": 30
+    },
+    {
+      "name": "Data Viz (Tableau)",
+      "proficiency": 30
+    },
+    {
+      "name": "Linux Server",
+      "proficiency": 40
+    }
+  ],
+  "portfolio": {
+    "categories": [
+      {
+        "name": "web"
+      },
+      {
+        "name": "mobile"
+      },
+      {
+        "name": "bots"
+      }
+    ],
+    "items": [
+      {
+        "title": "GIUSEPPE PIZZA",
+        "slug" : "giuseppe-pizza",
+        "link": "http://pizzariagiuseppe.com.br/",
+        "category": "bots",
+        "description": "Website developed on top of WordPress for one of the best Pizza Restaurants of Campo Grande.",
+        "about": " Project developed as a contractor with the Paiol Propaganda (BR) Design Team.This website was developed on top of WordPress with a custom theme.",
+        "about-sub": "In this project I've done the front-end and the back-end.",
+        "technologies": [
+          {
+            "name": "HTML"
+          },
+          {
+            "name": "CSS"
+          },
+          {
+            "name": "jQuery"
+          },
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "MySQL"
+          },
+          {
+            "name": "WordPress"
+          },
+          {
+            "name": "Bower"
+          },
+          {
+            "name": "Bootstrap 3.*"
+          },
+          {
+            "name": "Advanced Custom Fields"
+          }
+        ],
+        "featured_image": "img/pizzariagiuseppe-390x200.jpg",
+        "thumbnails": [
+          {
+            "media": "(min-width: 1200px)",
+            "url": "img/pizzariagiuseppe-360x200.jpg"
+          },
+          {
+            "media": "(min-width: 992px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          },
+          {
+            "media": "(min-width: 425px)",
+            "url": "img/pizzariagiuseppe-390x200.jpg"
+          },
+          {
+            "media": "(max-width: 375px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          }
+        ],
+        "screenshots": [
+          {
+            "uri": "img/portfolio/giuseppe/1.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/2.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/3.png"
+          }
+        ]
+      },
+      {
+        "title": "GIUSEPPE PIZZA",
+        "slug" : "giuseppe-pizza",
+        "link": "http://pizzariagiuseppe.com.br/",
+        "category": "bots",
+        "description": "Website developed on top of WordPress for one of the best Pizza Restaurants of Campo Grande.",
+        "about": " Project developed as a contractor with the Paiol Propaganda (BR) Design Team.This website was developed on top of WordPress with a custom theme.",
+        "about-sub": "In this project I've done the front-end and the back-end.",
+        "technologies": [
+          {
+            "name": "HTML"
+          },
+          {
+            "name": "CSS"
+          },
+          {
+            "name": "jQuery"
+          },
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "MySQL"
+          },
+          {
+            "name": "WordPress"
+          },
+          {
+            "name": "Bower"
+          },
+          {
+            "name": "Bootstrap 3.*"
+          },
+          {
+            "name": "Advanced Custom Fields"
+          }
+        ],
+        "featured_image": "img/pizzariagiuseppe-390x200.jpg",
+        "thumbnails": [
+          {
+            "media": "(min-width: 1200px)",
+            "url": "img/pizzariagiuseppe-360x200.jpg"
+          },
+          {
+            "media": "(min-width: 992px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          },
+          {
+            "media": "(min-width: 425px)",
+            "url": "img/pizzariagiuseppe-390x200.jpg"
+          },
+          {
+            "media": "(max-width: 375px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          }
+        ],
+        "screenshots": [
+          {
+            "uri": "img/portfolio/giuseppe/1.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/2.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/3.png"
+          }
+        ]
+      },
+      {
+        "title": "GIUSEPPE PIZZA",
+        "slug" : "giuseppe-pizza",
+        "link": "http://pizzariagiuseppe.com.br/",
+        "category": "web",
+        "description": "Website developed on top of WordPress for one of the best Pizza Restaurants of Campo Grande.",
+        "about": " Project developed as a contractor with the Paiol Propaganda (BR) Design Team.This website was developed on top of WordPress with a custom theme.",
+        "about-sub": "In this project I've done the front-end and the back-end.",
+        "technologies": [
+          {
+            "name": "HTML"
+          },
+          {
+            "name": "CSS"
+          },
+          {
+            "name": "jQuery"
+          },
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "MySQL"
+          },
+          {
+            "name": "WordPress"
+          },
+          {
+            "name": "Bower"
+          },
+          {
+            "name": "Bootstrap 3.*"
+          },
+          {
+            "name": "Advanced Custom Fields"
+          }
+        ],
+        "featured_image": "img/pizzariagiuseppe-390x200.jpg",
+        "thumbnails": [
+          {
+            "media": "(min-width: 1200px)",
+            "url": "img/pizzariagiuseppe-360x200.jpg"
+          },
+          {
+            "media": "(min-width: 992px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          },
+          {
+            "media": "(min-width: 425px)",
+            "url": "img/pizzariagiuseppe-390x200.jpg"
+          },
+          {
+            "media": "(max-width: 375px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          }
+        ],
+        "screenshots": [
+          {
+            "uri": "img/portfolio/giuseppe/1.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/2.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/3.png"
+          }
+        ]
+      },
+      {
+        "title": "GIUSEPPE PIZZA",
+        "slug" : "giuseppe-pizza",
+        "link": "http://pizzariagiuseppe.com.br/",
+        "category": "web",
+        "description": "Website developed on top of WordPress for one of the best Pizza Restaurants of Campo Grande.",
+        "about": " Project developed as a contractor with the Paiol Propaganda (BR) Design Team.This website was developed on top of WordPress with a custom theme.",
+        "about-sub": "In this project I've done the front-end and the back-end.",
+        "technologies": [
+          {
+            "name": "HTML"
+          },
+          {
+            "name": "CSS"
+          },
+          {
+            "name": "jQuery"
+          },
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "MySQL"
+          },
+          {
+            "name": "WordPress"
+          },
+          {
+            "name": "Bower"
+          },
+          {
+            "name": "Bootstrap 3.*"
+          },
+          {
+            "name": "Advanced Custom Fields"
+          }
+        ],
+        "featured_image": "img/pizzariagiuseppe-390x200.jpg",
+        "thumbnails": [
+          {
+            "media": "(min-width: 1200px)",
+            "url": "img/pizzariagiuseppe-360x200.jpg"
+          },
+          {
+            "media": "(min-width: 992px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          },
+          {
+            "media": "(min-width: 425px)",
+            "url": "img/pizzariagiuseppe-390x200.jpg"
+          },
+          {
+            "media": "(max-width: 375px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          }
+        ],
+        "screenshots": [
+          {
+            "uri": "img/portfolio/giuseppe/1.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/2.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/3.png"
+          }
+        ]
+      },
+      {
+        "title": "GIUSEPPE PIZZA",
+        "slug" : "giuseppe-pizza",
+        "link": "http://pizzariagiuseppe.com.br/",
+        "category": "web",
+        "description": "Website developed on top of WordPress for one of the best Pizza Restaurants of Campo Grande.",
+        "about": " Project developed as a contractor with the Paiol Propaganda (BR) Design Team.This website was developed on top of WordPress with a custom theme.",
+        "about-sub": "In this project I've done the front-end and the back-end.",
+        "technologies": [
+          {
+            "name": "HTML"
+          },
+          {
+            "name": "CSS"
+          },
+          {
+            "name": "jQuery"
+          },
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "MySQL"
+          },
+          {
+            "name": "WordPress"
+          },
+          {
+            "name": "Bower"
+          },
+          {
+            "name": "Bootstrap 3.*"
+          },
+          {
+            "name": "Advanced Custom Fields"
+          }
+        ],
+        "featured_image": "img/pizzariagiuseppe-390x200.jpg",
+        "thumbnails": [
+          {
+            "media": "(min-width: 1200px)",
+            "url": "img/pizzariagiuseppe-360x200.jpg"
+          },
+          {
+            "media": "(min-width: 992px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          },
+          {
+            "media": "(min-width: 425px)",
+            "url": "img/pizzariagiuseppe-390x200.jpg"
+          },
+          {
+            "media": "(max-width: 375px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          }
+        ],
+        "screenshots": [
+          {
+            "uri": "img/portfolio/giuseppe/1.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/2.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/3.png"
+          }
+        ]
+      },
+      {
+        "title": "GIUSEPPE PIZZA",
+        "slug" : "giuseppe-pizza",
+        "link": "http://pizzariagiuseppe.com.br/",
+        "category": "web",
+        "description": "Website developed on top of WordPress for one of the best Pizza Restaurants of Campo Grande.",
+        "about": " Project developed as a contractor with the Paiol Propaganda (BR) Design Team.This website was developed on top of WordPress with a custom theme.",
+        "about-sub": "In this project I've done the front-end and the back-end.",
+        "technologies": [
+          {
+            "name": "HTML"
+          },
+          {
+            "name": "CSS"
+          },
+          {
+            "name": "jQuery"
+          },
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "MySQL"
+          },
+          {
+            "name": "WordPress"
+          },
+          {
+            "name": "Bower"
+          },
+          {
+            "name": "Bootstrap 3.*"
+          },
+          {
+            "name": "Advanced Custom Fields"
+          }
+        ],
+        "featured_image": "img/pizzariagiuseppe-390x200.jpg",
+        "thumbnails": [
+          {
+            "media": "(min-width: 1200px)",
+            "url": "img/pizzariagiuseppe-360x200.jpg"
+          },
+          {
+            "media": "(min-width: 992px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          },
+          {
+            "media": "(min-width: 425px)",
+            "url": "img/pizzariagiuseppe-390x200.jpg"
+          },
+          {
+            "media": "(max-width: 375px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          }
+        ],
+        "screenshots": [
+          {
+            "uri": "img/portfolio/giuseppe/1.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/2.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/3.png"
+          }
+        ]
+      },
+      {
+        "title": "GIUSEPPE PIZZA",
+        "slug" : "giuseppe-pizza",
+        "link": "http://pizzariagiuseppe.com.br/",
+        "category": "web",
+        "description": "Website developed on top of WordPress for one of the best Pizza Restaurants of Campo Grande.",
+        "about": " Project developed as a contractor with the Paiol Propaganda (BR) Design Team.This website was developed on top of WordPress with a custom theme.",
+        "about-sub": "In this project I've done the front-end and the back-end.",
+        "technologies": [
+          {
+            "name": "HTML"
+          },
+          {
+            "name": "CSS"
+          },
+          {
+            "name": "jQuery"
+          },
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "MySQL"
+          },
+          {
+            "name": "WordPress"
+          },
+          {
+            "name": "Bower"
+          },
+          {
+            "name": "Bootstrap 3.*"
+          },
+          {
+            "name": "Advanced Custom Fields"
+          }
+        ],
+        "featured_image": "img/pizzariagiuseppe-390x200.jpg",
+        "thumbnails": [
+          {
+            "media": "(min-width: 1200px)",
+            "url": "img/pizzariagiuseppe-360x200.jpg"
+          },
+          {
+            "media": "(min-width: 992px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          },
+          {
+            "media": "(min-width: 425px)",
+            "url": "img/pizzariagiuseppe-390x200.jpg"
+          },
+          {
+            "media": "(max-width: 375px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          }
+        ],
+        "screenshots": [
+          {
+            "uri": "img/portfolio/giuseppe/1.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/2.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/3.png"
+          }
+        ]
+      },
+      {
+        "title": "GIUSEPPE PIZZA",
+        "slug" : "giuseppe-pizza",
+        "link": "http://pizzariagiuseppe.com.br/",
+        "category": "web",
+        "description": "Website developed on top of WordPress for one of the best Pizza Restaurants of Campo Grande.",
+        "about": " Project developed as a contractor with the Paiol Propaganda (BR) Design Team.This website was developed on top of WordPress with a custom theme.",
+        "about-sub": "In this project I've done the front-end and the back-end.",
+        "technologies": [
+          {
+            "name": "HTML"
+          },
+          {
+            "name": "CSS"
+          },
+          {
+            "name": "jQuery"
+          },
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "MySQL"
+          },
+          {
+            "name": "WordPress"
+          },
+          {
+            "name": "Bower"
+          },
+          {
+            "name": "Bootstrap 3.*"
+          },
+          {
+            "name": "Advanced Custom Fields"
+          }
+        ],
+        "featured_image": "img/pizzariagiuseppe-390x200.jpg",
+        "thumbnails": [
+          {
+            "media": "(min-width: 1200px)",
+            "url": "img/pizzariagiuseppe-360x200.jpg"
+          },
+          {
+            "media": "(min-width: 992px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          },
+          {
+            "media": "(min-width: 425px)",
+            "url": "img/pizzariagiuseppe-390x200.jpg"
+          },
+          {
+            "media": "(max-width: 375px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          }
+        ],
+        "screenshots": [
+          {
+            "uri": "img/portfolio/giuseppe/1.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/2.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/3.png"
+          }
+        ]
+      },
+      {
+        "title": "GIUSEPPE PIZZA",
+        "slug" : "giuseppe-pizza",
+        "link": "http://pizzariagiuseppe.com.br/",
+        "category": "web",
+        "description": "Website developed on top of WordPress for one of the best Pizza Restaurants of Campo Grande.",
+        "about": " Project developed as a contractor with the Paiol Propaganda (BR) Design Team.This website was developed on top of WordPress with a custom theme.",
+        "about-sub": "In this project I've done the front-end and the back-end.",
+        "technologies": [
+          {
+            "name": "HTML"
+          },
+          {
+            "name": "CSS"
+          },
+          {
+            "name": "jQuery"
+          },
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "MySQL"
+          },
+          {
+            "name": "WordPress"
+          },
+          {
+            "name": "Bower"
+          },
+          {
+            "name": "Bootstrap 3.*"
+          },
+          {
+            "name": "Advanced Custom Fields"
+          }
+        ],
+        "featured_image": "img/pizzariagiuseppe-390x200.jpg",
+        "thumbnails": [
+          {
+            "media": "(min-width: 1200px)",
+            "url": "img/pizzariagiuseppe-360x200.jpg"
+          },
+          {
+            "media": "(min-width: 992px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          },
+          {
+            "media": "(min-width: 425px)",
+            "url": "img/pizzariagiuseppe-390x200.jpg"
+          },
+          {
+            "media": "(max-width: 375px)",
+            "url": "img/pizzariagiuseppe-345x200.jpg"
+          }
+        ],
+        "screenshots": [
+          {
+            "uri": "img/portfolio/giuseppe/1.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/2.png"
+          },
+          {
+            "uri": "img/portfolio/giuseppe/3.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resume" : [
+    {
+      "current": true,
+      "company" : "Udacity",
+      "period" : {
+        "start": "2017",
+        "end" : "Actual"
+      },
+      "ocupation" : "Mentor & Project Reviewer",
+      "description": "I'm really happy to help other student to achieve their dreams trough online education."
+    },
+    {
+      "current": true,
+      "company" : "Imagetech Group",
+      "period" : {
+        "start": "2017",
+        "end" : "Actual"
+      },
+      "ocupation" : "Web Developer",
+      "description": "Developing PHP & MySQL based systems, using Laravel. Also developing some mobile applications using the awesome Ionic Framework. Happy to be here."
+    },
+    {
+      "current": true,
+      "company" : "JustWorks",
+      "period" : {
+        "start": "2015",
+        "end" : "2016"
+      },
+      "ocupation" : "Web Application Developer",
+      "description": "Developed a variety of company products, some websites utilizing Wordpress and CakePHP. Also made a lot of Restful API's utilizing NodeJS and some Android App's."
+    },
+    {
+      "current": true,
+      "company" : "Alexander Fleming",
+      "period" : {
+        "start": "2011",
+        "end" : "2015"
+      },
+      "ocupation" : "Web Developer",
+      "description": "I was responsible for a private high school infrastructure and main ERP system, which controlls all the students grades, disciplines, timetables, also finances and etc."
+    },
+    {
+      "current": true,
+      "company" : "UFMS",
+      "period" : {
+        "start": "2010",
+        "end" : "2010"
+      },
+      "ocupation" : "Web Developer",
+      "description": "I was responsible to develop some applications for the Federal University of Mato Grosso do Sul - Brazil"
+    },
+    {
+      "current": true,
+      "company" : "DWD Studio",
+      "period" : {
+        "start": "2009",
+        "end" : "2010"
+      },
+      "ocupation" : "CTO",
+      "description": "After graduate, i founded my own web development company with some friends."
+    }
+  ]
+}

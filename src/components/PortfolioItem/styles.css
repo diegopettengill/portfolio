@@ -1,0 +1,92 @@
+.portfolio-item {
+    padding-bottom: 20px;
+}
+
+.portfolio-item h3 {
+    display: inline-block;
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.portfolio-link {
+    float: right;
+    margin: 0px 15px 15px 0;
+    color: #494949;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.portfolio-link:hover {
+    color: #ffd504;
+}
+
+.portfolio-item-inner {
+    margin: 0 0 20px 0;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 1s;
+}
+
+.portfolio-item-inner:hover {
+    -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4);
+}
+
+.c-preview {
+    background: #000;
+    background: -moz-linear-gradient(-45deg, #000000 0%, #000000 25%, lightseagreen 50%, #ff3083 75%, rebeccapurple 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #000000 0%, #000000 25%, lightseagreen 50%, #ff3083 75%, rebeccapurple 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #000000 0%, #000000 25%, #1e539e 50%, lightseagreen 75%, rebeccapurple 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    display: flex;
+    /*width: 500px;*/
+    height: 200px;
+    max-width: 100vw;
+    max-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.c-preview__img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*background: #000 url(https://images.unsplash.com/photo-1466657718950-8f9346c04f8f?dpr=1&auto=format&fit=crop&w=800&h=800&q=80&cs=tinysrgb) no-repeat center center;*/
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.5;
+    mix-blend-mode: screen;
+}
+.c-preview__title {
+    position: relative;
+    z-index: 10;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.c-preview:hover {
+    background-position: 100% 100%;
+}
+.c-preview:hover__title {
+    text-shadow: 0 0 20px black;
+}
